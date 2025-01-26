@@ -16,7 +16,6 @@ pages_per_pdf = [len(pdf.pages) for pdf in input_pdfs]
 
 if not len(set(pages_per_pdf)) == 1:
     print("Number of pages per document are not all the same number. Exiting in 3 seconds")
-    print("In order, number of pages are: " + repr(pages_per_pdf))
     sleep(3)
     exit()
 
