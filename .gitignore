@@ -1,3 +1,7 @@
+# User pdf files
+.input/*
+.output/*
+
 # Environments
 .env
 .venv
@@ -10,5 +14,3 @@ ENV/
 
 # PyPI configuration file
 .pypirc
-.input/*
-.output/*
