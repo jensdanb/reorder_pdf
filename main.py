@@ -28,7 +28,6 @@ for page_nr in range(number_of_pages):
     
     for input_pdf in input_pdfs:
         writer.append(input_pdf, [page_nr])
-        print(len(writer.pages))
     
     output_file = open("output/doc_" + str(page_nr+1) + ".pdf", "wb")
     writer.write(output_file)
