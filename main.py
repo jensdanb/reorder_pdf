@@ -1,9 +1,9 @@
 from pypdf import PdfReader, PdfWriter
-from glob import glob
+from glob import iglob
 from time import sleep
 
 
-input_file_names = glob('*input/*.pdf', recursive=True)
+input_file_names = iglob('*input/*.pdf', recursive=True)
 input_pdfs = [PdfReader(name) for name in input_file_names]
 
 if len(input_pdfs) == 0:
