@@ -1,6 +1,6 @@
 # User pdf files
-.input/*
-.output/*
+.input/*.pdf
+.output/*.pdf
 
 # Environments
 .env
