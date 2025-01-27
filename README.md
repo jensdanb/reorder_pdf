@@ -2,12 +2,14 @@
 Transpose, zip, interlace groups of multipage pdf files
 
 Currently can only do Transpose. Number of pages per file must be equal. 
+Dependencies: 
+- PyPdf. Source: https://pypi.org/project/pypdf/
 
 To use: 
 - git clone this address, or just manually make a new folder and copy main.py into it.  
 - Install a recent version of Python. 
-- Make a Python Virtual Environment (google a guide) in the project folder (the one where main.py is). 
-- Inside the project folder, install pypdf with command "pip install pypdf". 
+- Make a Python Virtual Environment ("venv" - google a guide) in the project folder (the one where main.py is). 
+- Inside the project folder, activate the venv and install pypdf with command "pip install pypdf". 
 - If using conda or other in-house python manager, use your manager to get pypdf. 
 - Make a folder in the project, in same folder as "main.py", named "input", and one named "output". 
 - Copy the pdf files you want to reorder into the input folder.
