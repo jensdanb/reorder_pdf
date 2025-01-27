@@ -6,7 +6,7 @@ Currently can only do Transpose. Number of pages per file must be equal.
 Dependencies: 
 - PyPdf. Source: https://pypi.org/project/pypdf/
 
-To use: 
+User guide: 
 - git clone this address, or make a new folder and copy main.py into it.  
 - Install a recent version of Python. 
 - Make a Python Virtual Environment ("venv" - google a guide) in the project folder (the one where main.py is). 
