@@ -2,6 +2,7 @@
 Transpose, zip, interlace groups of multipage pdf files
 
 Currently can only do Transpose. Number of pages per file must be equal. 
+
 Dependencies: 
 - PyPdf. Source: https://pypi.org/project/pypdf/
 
