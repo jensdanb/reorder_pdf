@@ -3,7 +3,7 @@ from glob import iglob
 from time import sleep
 
 
-# Step 1: Find pdf documents and open them all in Python as PdfReader objects. 
+# Step 1: Find the input pdf documents and open them all in Python as PdfReader objects. 
 
 input_file_names = iglob('*input/*.pdf')
 input_pdfs = [PdfReader(name) for name in input_file_names]
