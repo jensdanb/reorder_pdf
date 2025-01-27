@@ -4,7 +4,7 @@ Transpose, zip, interlace groups of multipage pdf files
 Currently can only do Transpose. Number of pages per file must be equal. 
 
 To use: 
-- git clone https://github.com/jensdanb/reorder_pdf 
+- git clone github.com/jensdanb/reorder_pdf 
 - Install python. 
 - Check that it works and the version you have. 
 - Make a Python Virtual Environment (google a guide) in the project folder. 
