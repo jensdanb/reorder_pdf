@@ -3,7 +3,7 @@ from glob import iglob
 from time import sleep
 
 
-# Find pdf documents and open them all in Python as PdfReader objects. 
+# Step 1: Find pdf documents and open them all in Python as PdfReader objects. 
 
 input_file_names = iglob('*input/*.pdf')
 input_pdfs = [PdfReader(name) for name in input_file_names]
@@ -14,7 +14,7 @@ if len(input_pdfs) == 0:
     exit()
 
 
-# Ensure all documents have same number of pages and find that number. 
+# Step 2: Ensure all documents have same number of pages and find that number. 
 
 pages_per_pdf = [len(pdf.pages) for pdf in input_pdfs]
 
@@ -26,7 +26,7 @@ if not len(set(pages_per_pdf)) == 1:
 number_of_pages = pages_per_pdf[0]
 
 
-# Make output files as PdfWriter objects, add the right pages to them, save and close. 
+# Step 3: Make output files as PdfWriter objects, add the right pages to them, save and close. 
 
 for page_nr in range(number_of_pages):
     writer = PdfWriter()
