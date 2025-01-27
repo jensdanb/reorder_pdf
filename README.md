@@ -5,8 +5,7 @@ Currently can only do Transpose. Number of pages per file must be equal.
 
 To use: 
 - git clone github.com/jensdanb/reorder_pdf 
-- Install python. 
-- Check that it works and the version you have. 
+- Install a recent version of Python. 
 - Make a Python Virtual Environment (google a guide) in the project folder. 
 - Inside the project folder, install pypdf with command "pip install pypdf". 
 - If using conda or other in-house python manager, use your manager to get pypdf. 
