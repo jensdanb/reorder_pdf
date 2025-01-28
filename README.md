@@ -7,7 +7,7 @@ Dependencies:
 - PyPdf. Source: https://pypi.org/project/pypdf/
 
 User guide: 
-- git clone this address, or make a new folder and copy main.py into it.  
+- git clone this address, or make a new folder and copy main.py and LICENSE into it.  
 - Install a recent version of Python. 
 - Make a Python Virtual Environment ("venv" - google a guide) in the project folder (the one where main.py is). 
 - Inside the project folder, activate the venv and install pypdf with command "pip install pypdf". 
