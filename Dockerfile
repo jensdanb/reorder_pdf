@@ -1,9 +1,15 @@
 FROM python:3.13 
 
-COPY main.py requirements.txt ./
+# Python setup
+COPY requirements.txt ./
 RUN pip install -r requirements.txt
+COPY main.py ./
 
-RUN mkdir output
+# Data setup
 COPY input/*.pdf input/
+RUN mkdir output
 
-CMD ["python3", "main.py"]
+# Execute
+RUN python3 main.py
+RUN ["ls", "output"]
+CMD ["sleep", "12"]
